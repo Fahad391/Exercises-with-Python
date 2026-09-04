@@ -2,7 +2,7 @@ class Car:
     def __init__(self, Brand, Model):
         self.brand = Brand
         self.model = Model
-        self.__speed = 0
+        self.__speed = 0 # used Encapsulation to make it private
 
     def accelerate(self, acc_value):
         if acc_value < 0:
@@ -17,7 +17,7 @@ class Car:
     def press_break(self):
         self.__speed  = 0
         print("Stopped")
-
+# used getter and setter method to access the private variable
     def get_speed(self):
         print(f"Speed is set to {self.__speed} km/hr")
 

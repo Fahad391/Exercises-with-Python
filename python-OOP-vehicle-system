@@ -1,3 +1,6 @@
+"""
+Practiced Multi-Level & Hierarchical Inheritance, Abstraction, Super method, Exception handling
+"""
 from abc import ABC, abstractmethod
 
 #Parent or Root Class

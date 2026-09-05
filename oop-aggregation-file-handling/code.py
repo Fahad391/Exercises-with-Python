@@ -5,7 +5,7 @@ try:
             self.designation = designation
             self.salary = salary
 
-            if not isinstance(self.salary, (float)):
+            if not isinstance(self.salary, float):
                 raise ValueError("Salary must be float")
 
         def display_employee_data(self):

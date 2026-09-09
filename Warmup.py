@@ -40,8 +40,8 @@ plt.xlabel("Genres", fontweight='bold')
 plt.ylabel("Sales", fontweight='bold') 
 
 # Show the Math by Numpy
-plt.text( #-----> Bujhi nai thik moto.
-    0.75, 1.13,  # --> 0.75 represents distance from left horizontal, 1.13 represents distance from 
+plt.text(
+    0.75, 1.13, 
     f"Calculations\n"
     f"Total Sales: {total_sales}\n"
     f"Highest Sale Amount: {Highest_sale_Amount} Genre: {highest_sales_genre}\n"
